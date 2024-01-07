@@ -46,11 +46,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
 model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
 ```
-## SFT
-
-## RLHF-DPO
 <br>2. 加载数据集
 ```python
 from datasets import load_dataset
 dataset = load_dataset("mlabonne/guanaco-llama2-1k")
 ```
+## SFT
+
+## RLHF-DPO
